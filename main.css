@@ -7,6 +7,16 @@ body {
     text-align: center;
 }
 
+a {
+    color: #121212;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover {
+    color: #a8a8a8;
+}
+
 .header {
     position: relative;
     text-align: center;
