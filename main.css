@@ -1,0 +1,91 @@
+body {
+    padding: 6%;
+    overflow: hidden;
+    max-width: 1100px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    color: #424242;
+}
+
+.header {
+    padding-bottom: 60px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    font-family: "proxima-nova";
+    line-height: 1em;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.header h1 {
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    display: block;
+    margin: 0 auto 28px;
+    font-size: 5.5rem;
+}
+
+.header a {
+    color: #121212;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: #a8a8a8;
+}
+
+.header p {
+    color: #a8a8a8;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.nav {
+    width: auto;
+    text-align: center;
+    border-bottom: 1px solid rgba(224,224,224,0);
+    border-top: 1px solid rgba(224,224,224,0);
+    margin: 0;
+    padding: 28px 0;
+    display: block;
+}
+
+.nav ul {
+    list-style: none;
+    list-style-image: none;
+    line-height: 1.5em;
+}
+
+.nav li {
+    display: inline-block;
+    text-align: center;
+}
+
+.nav a {
+    padding: 0 .8em;
+    text-decoration: none;
+    color: #777;
+}
+
+.nav a:link {
+    color: #666;
+}
+.footer {
+    color: #777;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.footer a {
+    color: #777;
+}
+
+.social-links {
+    display: inline-block;
+}
