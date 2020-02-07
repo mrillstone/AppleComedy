@@ -1,14 +1,13 @@
 body {
     padding: 6%;
-    overflow: hidden;
     max-width: 1100px;
     margin: 0 auto;
     font-size: 1.5rem;
     color: #424242;
+    text-align: center;
 }
 
 .header {
-    padding-bottom: 60px;
     position: relative;
     text-align: center;
     margin: 0 auto;
@@ -39,18 +38,16 @@ body {
 
 .header p {
     color: #a8a8a8;
-    font-size: 1rem;
-    font-weight: 700;
+    font-size: 1.2rem;
 }
 
 .nav {
     width: auto;
     text-align: center;
-    border-bottom: 1px solid rgba(224,224,224,0);
-    border-top: 1px solid rgba(224,224,224,0);
     margin: 0;
-    padding: 28px 0;
+    padding: 7vh 0;
     display: block;
+    font-size: 1.1rem;
 }
 
 .nav ul {
@@ -67,12 +64,38 @@ body {
 .nav a {
     padding: 0 .8em;
     text-decoration: none;
-    color: #777;
+    color: #424242;
 }
 
 .nav a:link {
     color: #666;
 }
+
+.nav a:hover {
+    color: #888;
+}
+
+.bio {
+    margin-bottom: 10vh;
+}
+
+.bio p {
+    font-family: "proxima-nova";
+    line-height: 1.7em;
+    letter-spacing: 0px;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0 0 28px;
+    color: #424242;
+    text-align: center;
+    white-space: pre-wrap;
+}
+
+.bio img {
+    max-width: 100%;
+    height: auto;
+}
+
 .footer {
     color: #777;
     position: relative;
