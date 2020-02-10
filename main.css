@@ -138,9 +138,36 @@ a:hover {
 
 .contact {
     text-transform: uppercase;
+    margin-bottom: 2rem;
 }
 
 .contact h2 {
     font-weight: 700;
     margin-bottom: 2rem;
 } 
+
+.email {
+    font-family: "proxima-nova";
+    margin-top: 2rem;
+}
+
+.email input {
+    border-radius: 25px;
+    border-style: solid;
+    width: 100%;
+    padding: 12px 20px;
+}
+
+.email textarea {
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 25px;
+    border-style: solid;
+    border: 2px solid #424242;
+}
+
+.email button {
+    border-radius: 25px;
+    border-style: solid;
+    border: 2px solid #424242;
+}
