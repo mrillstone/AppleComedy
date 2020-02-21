@@ -1,0 +1,14 @@
+{
+    "shows":  [{
+                "date": "2/12",
+                "time": "8pm",
+                "venue": "birds",
+                "venuelink": "https://birdsoystershack.com/"
+        }, {
+            "date": "2/14",
+            "time": "9:30pm",
+            "venue": "Birds",
+            "venuelink": "https://birdsoystershack.com/"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "applecomedy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "handlebars": "^4.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test",
+    "render-html": "node render-html.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://mrillstone@bitbucket.org/mrillstone/apple-comedy.git"
+  },
+  "author": "meaghan rillstone",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/mrillstone/apple-comedy#readme"
+}
